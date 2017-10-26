@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C5AF46D1F8F1D7700F809AE /* Top10Theater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top10Theater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5AF46D1F8F1D7700F809AE /* TaiwanClassicWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiwanClassicWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5AF4701F8F1D7700F809AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C5AF4721F8F1D7700F809AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C5AF4751F8F1D7700F809AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		4C5AF4641F8F1D7700F809AE = {
 			isa = PBXGroup;
 			children = (
-				4C5AF46F1F8F1D7700F809AE /* Top10Theater */,
+				4C5AF46F1F8F1D7700F809AE /* TaiwanClassicWalker */,
 				4C5AF46E1F8F1D7700F809AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		4C5AF46E1F8F1D7700F809AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C5AF46D1F8F1D7700F809AE /* Top10Theater.app */,
+				4C5AF46D1F8F1D7700F809AE /* TaiwanClassicWalker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C5AF46F1F8F1D7700F809AE /* Top10Theater */ = {
+		4C5AF46F1F8F1D7700F809AE /* TaiwanClassicWalker */ = {
 			isa = PBXGroup;
 			children = (
 				4C5AF4701F8F1D7700F809AE /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				4C5AF4791F8F1D7700F809AE /* LaunchScreen.storyboard */,
 				4C5AF47C1F8F1D7700F809AE /* Info.plist */,
 			);
-			path = Top10Theater;
+			path = TaiwanClassicWalker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C5AF46C1F8F1D7700F809AE /* Top10Theater */ = {
+		4C5AF46C1F8F1D7700F809AE /* TaiwanClassicWalker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C5AF47F1F8F1D7800F809AE /* Build configuration list for PBXNativeTarget "Top10Theater" */;
+			buildConfigurationList = 4C5AF47F1F8F1D7800F809AE /* Build configuration list for PBXNativeTarget "TaiwanClassicWalker" */;
 			buildPhases = (
 				4C5AF4691F8F1D7700F809AE /* Sources */,
 				4C5AF46A1F8F1D7700F809AE /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Top10Theater;
+			name = TaiwanClassicWalker;
 			productName = Top10Theater;
-			productReference = 4C5AF46D1F8F1D7700F809AE /* Top10Theater.app */;
+			productReference = 4C5AF46D1F8F1D7700F809AE /* TaiwanClassicWalker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C5AF4681F8F1D7700F809AE /* Build configuration list for PBXProject "Top10Theater" */;
+			buildConfigurationList = 4C5AF4681F8F1D7700F809AE /* Build configuration list for PBXProject "TaiwanClassicWalker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C5AF46C1F8F1D7700F809AE /* Top10Theater */,
+				4C5AF46C1F8F1D7700F809AE /* TaiwanClassicWalker */,
 			);
 		};
 /* End PBXProject section */
@@ -275,9 +275,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Top10Theater/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TaiwanClassicWalker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ntou.Top10Theater;
+				PRODUCT_BUNDLE_IDENTIFIER = ntou.TaiwanClassicWalker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +290,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Top10Theater/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TaiwanClassicWalker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ntou.Top10Theater;
+				PRODUCT_BUNDLE_IDENTIFIER = ntou.TaiwanClassicWalker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C5AF4681F8F1D7700F809AE /* Build configuration list for PBXProject "Top10Theater" */ = {
+		4C5AF4681F8F1D7700F809AE /* Build configuration list for PBXProject "TaiwanClassicWalker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C5AF47D1F8F1D7800F809AE /* Debug */,
@@ -310,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C5AF47F1F8F1D7800F809AE /* Build configuration list for PBXNativeTarget "Top10Theater" */ = {
+		4C5AF47F1F8F1D7800F809AE /* Build configuration list for PBXNativeTarget "TaiwanClassicWalker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C5AF4801F8F1D7800F809AE /* Debug */,
